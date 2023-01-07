@@ -207,39 +207,3 @@ ul li::before {
   margin-bottom: 16px;
   border-radius: 8px;
 }
-
-
-
-
-/* sheva plan styles */
-
-.sheva-section{
-  margin: 0 400px;
-}
-
-.sheva-description{
-  text-align: center;
-  margin: 30px 400px;
-}
-.sheva{
-  display: flex;
-  justify-content: space-evenly;
-}
-.sheva-item-one{
-  background: #edf5f6;
-  padding: 50px 20px;
-
-}
-.sheva-item-two{
-  background: #fab1a0;
-  padding: 50px 20px;
-}
-.sheva-item-three{
-  background: #ffeaa7;
-  padding: 50px 20px;
-}
-.sheva-title{
-  color: #121212;
-  font-size: 20px;
-  margin-bottom: 15px;
-} 
