@@ -1,44 +1,245 @@
 * {
   margin: 0 auto;
   font-family: "Work Sans", sans-serif;
+
 }
 
 /* header container */
-.header-container{
-  background-image: url(../images/banner/banner3.png);
+.header-container {
+  background-image: url(../images/banner/banner2.png);
   background-repeat: no-repeat;
   width: 1600px;
-  height: 800px;
+  height: 400px;
   text-align: right;
-
+  padding-top: 216px;
+  padding-bottom: 365px;
 }
 
-.banner-title{
+.banner-title {
   color: #151414;
   font-weight: 700;
   font-size: 65px;
   line-height: 76px;
   text-align: right;
-  /* padding: 216px 230px 364px 845px; */
-  margin: 0 400px;
+  padding: 0 200px;
 }
-.banner-descirption{
+.banner-descirption {
   color: #444343;
   text-align: right;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  /* padding: 468px 230px 262px 876px; */
-  margin: 0 400px;
+  padding: 0 200px;
+  margin-bottom: 32px;
 }
 .button-primary {
-  color: #FFFFFF;
+  color: #ffffff;
   background: #f15b22;
   border: none;
+  height: 64px;
   border-radius: 5px;
   padding: 21px 25px 20px 26px;
   font-size: 20px;
   font-weight: 600px;
   border-radius: 5px;
-  margin: 32px 400px;
+  margin: 0 200px;
 }
+
+/* main section */
+
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "✓";
+}
+.my-failures {
+  margin: 0 200px;
+  display: flex;
+  align-items: center;
+}
+.my-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+
+  padding: 0 200px;
+  margin-bottom: 24px;
+  width: 288px;
+  height: 94px;
+  text-align: left;
+}
+.my-description {
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  width: 300px;
+  height: ;
+  line-height: 26px;
+  padding: 0 200px;
+  margin-bottom: 16px;
+  align-items: left;
+}
+.my-description-item {
+  width: 349px;
+  height: 162px;
+  text-align: left;
+}
+
+/* my plan section */
+
+.do-container {
+  display: flex;
+  width: 1141px;
+  height: 202.96px;
+  gap: ;
+}
+.plays-title {
+  text-align: center;
+  color: #151414;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 50px;
+  padding-top: 120px;
+}
+
+/* positive mindset */
+.mindset {
+  width: 1140px;
+  height: 300px;
+  margin-bottom: 130px;
+}
+.mindset-section {
+  width: 1140px;
+  height: 300px;
+  background-image: linear-gradient(
+      90deg,
+      #f15b22 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(../images/watch.png);
+  background-size: cover;
+}
+
+.mindset-title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 24px;
+  width: 459px;
+  height: 94px;
+  padding-top: 58px;
+  padding-left: 64px;
+  padding-right: 617px;
+}
+.btn-call {
+  color: #f15b22;
+  background: #ffffff;
+  border: none;
+  width: 160px;
+  height: 64px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600px;
+  border-radius: 5px;
+  margin: 0 916px 59px 64px;
+}
+/* footer section */
+
+.footer-section {
+  display: flex;
+
+  background: #151414;
+  padding: 130px 200px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+}
+.footer-description {
+  width: 400px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.footer-sub-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+.footer-sub-description-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.footer-section a {
+  text-decoration: none;
+  margin-right: 18px;
+}
+.footer-flex {
+  width: 325px;
+  height: 204px;
+}
+.footer-sub-title {
+  margin-bottom: 31px;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+
+}
+.email {
+  color: #F3F3F3;
+  background: #151414;
+  padding: 21px 158px 22px 21px;
+  margin-bottom: 31px;
+}
+.subscribe {
+  color: #F15B22;
+  padding: 20px 37px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+
+
+
+/* sheva plan styles */
+
+.sheva-section{
+  margin: 0 400px;
+}
+
+.sheva-description{
+  text-align: center;
+  margin: 30px 400px;
+}
+.sheva{
+  display: flex;
+  justify-content: space-evenly;
+}
+.sheva-item-one{
+  background: #edf5f6;
+  padding: 50px 20px;
+
+}
+.sheva-item-two{
+  background: #fab1a0;
+  padding: 50px 20px;
+}
+.sheva-item-three{
+  background: #ffeaa7;
+  padding: 50px 20px;
+}
+.sheva-title{
+  color: #121212;
+  font-size: 20px;
+  margin-bottom: 15px;
+} 
